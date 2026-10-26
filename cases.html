@@ -1,0 +1,51 @@
+<!doctype html>
+<!--
+  nat/yama — editorial design and digital publishing, Berlin
+  Design: nat/yama — https://natyama.com
+  All texts, images and works are protected by copyright.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Projects — nat/yama</title>
+<meta name="description" content="Projects and an archive of smaller work by nat/yama, a Berlin studio for editorial design and digital publishing.">
+<link rel="canonical" href="https://natyama.com/cases.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="nat/yama">
+<meta property="og:title" content="Projects — nat/yama">
+<meta property="og:description" content="Projects and an archive of smaller work by nat/yama, Berlin.">
+<meta property="og:url" content="https://natyama.com/cases.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="frame.css">
+<link rel="stylesheet" href="tabbar.css">
+<style>.scroller{position:fixed;left:var(--side);right:var(--side);top:var(--bar);bottom:var(--foot);overflow-y:auto;scrollbar-width:none;z-index:1}[hidden]{display:none!important}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.bands{list-style:none;margin:0;padding:0}.bands li{border-top:var(--hair) solid var(--line)}.band{display:grid;grid-template-columns:1fr 1fr;column-gap:calc(40 * var(--u));min-height:calc(280 * var(--u));padding:calc(40 * var(--u)) calc(64 * var(--u));color:var(--navy);transition:filter .3s ease}.band[data-plate=pink]{background:#ffc1dd}.band[data-plate=peach]{background:#ffe5db}.band[data-plate=khaki]{background:#9d7f4dcc;color:#ffe5db}.band:hover{filter:brightness(.97)}.band .no{font-size:calc(15 * var(--u));font-weight:300;font-variant-numeric:tabular-nums}.band .tt{display:flex;flex-direction:column;gap:calc(14 * var(--u))}.band .title{margin:0;font-size:calc(44 * var(--u));font-weight:700;line-height:1.04}.band .meta{font-size:calc(15 * var(--u));font-weight:300}.band .side{display:flex;flex-direction:column;justify-content:space-between;gap:calc(20 * var(--u))}.band .sum{margin:0;font-size:calc(19 * var(--u));line-height:1.4;max-width:30em}.band .pic{width:100%;aspect-ratio:16 / 10;object-fit:cover;display:block}.band .go{align-self:flex-start;font-size:calc(15 * var(--u));transition:transform .3s ease}.band:hover .go{transform:translate(6px)}.archive{border-top:var(--hair) solid var(--line);padding:calc(48 * var(--u)) calc(64 * var(--u)) calc(64 * var(--u))}.archive h2{margin:0 0 calc(20 * var(--u));font-size:calc(15 * var(--u));font-weight:700;letter-spacing:.08em;text-transform:uppercase}.rows{list-style:none;margin:0;padding:0;border-top:var(--hair) solid var(--line)}.rows li{display:grid;grid-template-columns:calc(110 * var(--u)) 1.2fr 1fr calc(90 * var(--u));column-gap:calc(24 * var(--u));align-items:baseline;padding:calc(12 * var(--u)) 0;border-bottom:var(--hair) solid var(--line);font-size:calc(16 * var(--u))}.rows .year,.rows .medium,.rows .role{font-size:calc(14 * var(--u));font-weight:300;font-variant-numeric:tabular-nums}.rows .medium{text-align:right}@media (min-width: 701px) and (max-width: 1100px) and (orientation: portrait){.band{grid-template-columns:1fr;row-gap:calc(18 * var(--t));padding:calc(32 * var(--t)) calc(40 * var(--t));min-height:0}.band .no,.band .meta,.band .go{font-size:calc(14 * var(--t))}.band .title{font-size:calc(36 * var(--t))}.band .sum{font-size:calc(17 * var(--t))}.archive{padding:calc(40 * var(--t))}.archive h2{font-size:calc(14 * var(--t))}.rows li{grid-template-columns:calc(90 * var(--t)) 1fr calc(70 * var(--t));font-size:calc(16 * var(--t))}.rows .role{grid-column:2 / -1}.rows .year,.rows .medium,.rows .role{font-size:calc(13 * var(--t))}}@media (max-width: 700px){.band{grid-template-columns:1fr;row-gap:calc(14 * var(--p));padding:calc(24 * var(--p)) calc(18 * var(--p));min-height:0}.band .no,.band .meta,.band .go{font-size:calc(12 * var(--p))}.band .title{font-size:calc(28 * var(--p))}.band .sum{font-size:calc(15 * var(--p))}.archive{padding:calc(28 * var(--p)) calc(18 * var(--p)) calc(40 * var(--p))}.archive h2{font-size:calc(12 * var(--p));margin-bottom:calc(14 * var(--p))}.rows li{grid-template-columns:calc(64 * var(--p)) 1fr;font-size:calc(15 * var(--p));row-gap:calc(2 * var(--p))}.rows .medium{display:none}.rows .role{grid-column:2}.rows .year,.rows .role{font-size:calc(12 * var(--p))}}</style>
+</head>
+<body class="cases" data-page="cases">
+<main class="scroller" id="scroller">
+  <div id="ready">
+    <h1 class="sr" data-t="cases">Projects</h1>
+    <ol class="bands" id="bands"></ol>
+    <section class="archive" id="archive">
+      <h2 data-t="archive">Archive</h2>
+      <ol class="rows" id="rows"></ol>
+    </section>
+  </div>
+</main>
+<div class="frame">
+  <header class="top"><a class="id" href="index.html">nat/yama</a><a class="hcase on" href="index.html#paper">Projects</a>
+    <nav class="langs" aria-label="Language"><button data-lang="en" class="on">EN</button><button data-lang="de">DE</button><button data-lang="ja">JP</button></nav></header>
+  <nav class="rail left" aria-label="Ground"><div class="v"><a href="index.html#field" aria-label="1">I</a><a href="index.html#night" aria-label="2">II</a><a href="index.html#day" aria-label="3">III</a><a href="index.html#reclus" aria-label="4">IV</a></div></nav>
+  <nav class="rail right" aria-label="Legal"><div class="v"><a href="index.html#impressum">Impressum</a><a href="index.html#datenschutz">Datenschutz</a></div></nav>
+  <footer class="bottom"><a class="contact" href="index.html#contact">Contact</a><a class="loc" href="index.html#location">Location</a><a class="person" href="index.html#person">Natsumi Sugiyama</a></footer>
+</div>
+<script src="projects.js"></script>
+<script src="tabbar.js"></script>
+<script>(()=>{const e=a=>document.getElementById(a),n=casesReady(),l=location.search.includes("preview")?"&preview":"";e("bands").innerHTML=PROJECTS.slice(0,3).map((a,s)=>n?`<li><a class="band" data-plate="${a.plate||"peach"}" href="project.html?p=${a.slug}${l}">
+      <span class="tt"><span class="title">${a.title}</span><span class="meta">${a.medium} \xB7 ${a.year}</span></span>
+      <span class="side">${a.cover?`<img class="pic" src="${a.cover}" alt="">`:""}<span class="sum">${a.summary}</span><span class="go" data-t="view">View case \u2192</span></span>
+    </a></li>`:`<li><div class="band" data-plate="${a.plate||"peach"}">
+      <span class="tt"><span class="title">Case no.${s+1}</span></span>
+    </div></li>`).join("");{const a=s=>String(s).replace(/\[[^\]]*\]/g,t=>`<span class="todo">${t}</span>`);e("rows").innerHTML=ARCHIVE.map(s=>`<li><span class="year">${a(s.year)}</span><span class="name">${s.href?`<a href="${s.href}" target="_blank" rel="noopener">${a(s.title)}</a>`:a(s.title)}</span><span class="role">${[s.client,s.role].filter(Boolean).map(a).join(" \xB7 ")}</span><span class="medium">${s.medium}</span></li>`).join("")}wireLangs(),location.hash==="#archive"&&n&&e("archive").scrollIntoView()})();</script>
+</body>
+</html>
