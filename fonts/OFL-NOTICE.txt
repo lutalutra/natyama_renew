@@ -1,0 +1,8 @@
+nat/yama — Design: nat/yama — https://natyama.com
+
+bricolage-grotesque-latin.woff2
+Bricolage Grotesque (variable: opsz 12–96, wght 200–800), Latin subset as served by Google Fonts.
+Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+The license is available with a FAQ at: https://openfontlicense.org
